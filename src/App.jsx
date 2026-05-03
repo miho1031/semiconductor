@@ -320,8 +320,18 @@ export default function App() {
   const totalRevenue = companies.reduce((s, c) => s + c.revenue2025, 0);
 
   return (
-    <div>
-{/* Nav */}
+    
+
+    
+
+    
+    <div style={{
+      fontFamily: "'Hiragino Sans', 'Noto Sans JP', sans-serif",
+      background: "#0a0a0f",
+      minHeight: "100vh",
+      color: "#e8e8f0",
+    }}>
+      {/* Nav */}
 <div className="nav-pad" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 40px", borderBottom: "1px solid #1e1e3a", background: "#0a0a0f" }}>
   <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -347,15 +357,7 @@ export default function App() {
     </button>
   </a>
 </div>
-    </div>
-
-    
-    <div style={{
-      fontFamily: "'Hiragino Sans', 'Noto Sans JP', sans-serif",
-      background: "#0a0a0f",
-      minHeight: "100vh",
-      color: "#e8e8f0",
-    }}>
+      
       {/* Header */}
       <div style={{
         background: "linear-gradient(135deg, #0a0a0f 0%, #141428 50%, #0a0a0f 100%)",
