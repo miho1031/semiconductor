@@ -320,6 +320,7 @@ export default function App() {
   const totalRevenue = companies.reduce((s, c) => s + c.revenue2025, 0);
 
   return (
+    <div>
 {/* Nav */}
 <div className="nav-pad" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 40px", borderBottom: "1px solid #1e1e3a", background: "#0a0a0f" }}>
   <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -346,6 +347,8 @@ export default function App() {
     </button>
   </a>
 </div>
+    </div>
+
     
     <div style={{
       fontFamily: "'Hiragino Sans', 'Noto Sans JP', sans-serif",
