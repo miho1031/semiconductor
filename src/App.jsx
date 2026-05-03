@@ -365,6 +365,35 @@ export default function App() {
         </div>
       </div>
 
+{/* Nav */}
+<div className="nav-pad" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 40px", borderBottom: "1px solid #1e1e3a", background: "#0a0a0f" }}>
+  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+      <rect width="30" height="30" rx="6" fill="#0d0d1a"/>
+      <rect x="5" y="13" width="4" height="4" rx="0.5" fill="#4a2a8a"/>
+      <rect x="13" y="5" width="4" height="4" rx="0.5" fill="#4a2a8a"/>
+      <rect x="13" y="13" width="4" height="4" rx="0.5" fill="#c4b5fd"/>
+      <rect x="21" y="13" width="4" height="4" rx="0.5" fill="#4a2a8a"/>
+      <rect x="13" y="21" width="4" height="4" rx="0.5" fill="#4a2a8a"/>
+      <line x1="9" y1="15" x2="13" y2="15" stroke="#2a1a4a" strokeWidth="1"/>
+      <line x1="17" y1="15" x2="21" y2="15" stroke="#2a1a4a" strokeWidth="1"/>
+      <line x1="15" y1="9" x2="15" y2="13" stroke="#2a1a4a" strokeWidth="1"/>
+      <line x1="15" y1="17" x2="15" y2="21" stroke="#2a1a4a" strokeWidth="1"/>
+    </svg>
+    <div>
+      <div style={{ fontSize: 15, fontWeight: 800, letterSpacing: "0.06em", color: "#f0f0ff" }}>TraderCat</div>
+      <div style={{ fontSize: 9, letterSpacing: "0.25em", color: "#6060aa", textTransform: "uppercase" }}>Market Intelligence</div>
+    </div>
+  </div>
+  <a href="https://tradercat-top.vercel.app/" style={{textDecoration:'none'}}>
+    <button style={{ fontSize: 12, border: "1px solid #2a2a4a", background: "transparent", color: "#a0a0cc", padding: "7px 16px", borderRadius: 5, cursor: "pointer", letterSpacing: "0.05em", fontFamily: "inherit" }}>
+      ← TOP
+    </button>
+  </a>
+</div>
+
+
+      
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "24px 16px" }}>
 
         {/* Industry Structure */}
