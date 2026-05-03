@@ -375,7 +375,7 @@ export default function App() {
             Global Semiconductor Intelligence
           </div>
           <h1 style={{ fontSize: 28, fontWeight: 800, margin: "0 0 4px", letterSpacing: "-0.02em" }}>
-            世界の半導体企業 完全マップ
+            世界の半導体企業 完全マップ<br></br>売上などの数字に間違いが見つかりました。只今修正中になります。2026.5.1
           </h1>
           <p style={{ color: "#6b6b8a", fontSize: 13, margin: "0 0 24px" }}>
             時価総額・社員数・業績・企業間関係 — 2025/2026年データ
